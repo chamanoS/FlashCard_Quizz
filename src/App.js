@@ -30,7 +30,10 @@ function App() {
   }
   
   return (
-    <FlashcardsList flashcards={flashcards}/>
+    <div className="container">
+        <FlashcardsList flashcards={flashcards}/>
+    </div>
+  
   );
 }
 
